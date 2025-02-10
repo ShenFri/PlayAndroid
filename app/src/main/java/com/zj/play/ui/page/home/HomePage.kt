@@ -120,20 +120,20 @@ private fun PortHomeContent(
     lazyPagingItems: LazyPagingItems<ArticleModel>
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
-        BannerPager(
-            items = data,
-            modifier = Modifier
-                .padding(horizontal = 8.dp)
-                .wrapContentHeight(),
-            indicatorGravity = Alignment.BottomEnd
-        ) {
-            toArticleDetails(
-                ArticleModel(
-                    title = it.title,
-                    link = it.url
-                )
-            )
-        }
+//        BannerPager(
+//            items = data,
+//            modifier = Modifier
+//                .padding(horizontal = 8.dp)
+//                .wrapContentHeight(),
+//            indicatorGravity = Alignment.BottomEnd
+//        ) {
+//            toArticleDetails(
+//                ArticleModel(
+//                    title = it.title,
+//                    link = it.url
+//                )
+//            )
+//        }
         ArticleListPaging(
             lazyPagingItems = lazyPagingItems,
             enterArticle = toArticleDetails
