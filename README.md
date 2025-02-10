@@ -16,9 +16,7 @@ Compose 版本的玩安卓，大家如果想体验的话下载代码直接切换
 
 ### 实现过程
 
-项目用到了很多技术，基本上都是现在安卓app的最新标配，比如：Compose、MVVM、JetPack（LiveData、Room、ViewModel）、Retrofit、协程、Glide等等。
-
-如果代码哪块写的不好或者有优化的地方欢迎大家告诉我或者给我提issues。
+项目用到了很多技术，基本上都是现在安卓app的最新标配，比如：Compose、MVVM、JetPack（LiveData、Room、ViewModel）、Retrofit、协程、Glide等等。如果代码哪块写的不好或者有优化的地方欢迎大家告诉我或者给我提issues。
 
 ### 使用到的库
 
